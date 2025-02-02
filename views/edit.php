@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon avec plusieurs tailles -->
+    <link rel="icon" href="./img/logo-todo.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./img/logo-todo.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="./img/logo-todo.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="./img/logo-todo.png" type="image/png" sizes="96x96">
+    <link rel="icon" href="./img/logo-todo.png" type="image/png" sizes="192x192">
+    <link rel="icon" href="./img/logo-todo.png" type="image/png" sizes="512x512">
+
     <title>Edit Task</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 font-sans">

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task List</title>
+    <link rel="icon" href="./img/logo-todo.png" type="image/png" sizes="512x512">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
