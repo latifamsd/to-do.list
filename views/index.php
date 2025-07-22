@@ -201,7 +201,7 @@
                                                 <i class="fas fa-edit mr-1"></i>Edit
                                             </button>
                                             <a href="/delete/<?= $task['id'] ?>"
-                                                class="text-red-600 hover:text-red-700 font-medium hover:underline transition-colors">
+                                                class="text-red-600 hover:text-red-700 font-medium hover:underline transition-colors" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette tâche ?');">
                                                 <i class="fas fa-trash mr-1"></i>Delete
                                             </a>
                                         </td>
@@ -267,7 +267,7 @@
                                                 <i class="fas fa-edit mr-1"></i>Edit
                                             </button>
                                             <a href="/delete/<?= $task['id'] ?>"
-                                                class="text-red-600 hover:text-red-700 font-medium hover:underline transition-colors">
+                                                class="text-red-600 hover:text-red-700 font-medium hover:underline transition-colors" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette tâche ?');">
                                                 <i class="fas fa-trash mr-1"></i>Delete
                                             </a>
                                         </td>
@@ -317,7 +317,7 @@
                                         </td>
                                         <td class="py-4 px-6 text-center">
                                             <a href="/delete/<?= $task['id'] ?>"
-                                                class="text-red-600 hover:text-red-700 font-medium hover:underline transition-colors">
+                                                class="text-red-600 hover:text-red-700 font-medium hover:underline transition-colors" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette tâche ?');">
                                                 <i class="fas fa-trash mr-1"></i>Delete
                                             </a>
                                         </td>
